@@ -2,8 +2,6 @@
 Além disso, pode receber parâmetros ou argumentos que especificam o que a tarefa irá processar.
 A sua principal finalidade é nos ajudar a organizar programas em pedaços que correspondam a como imaginamos uma solução do problema."""
 
-"""palavra reservada de funcoes e def"""
-
 import math
 
 def delta(a, b, c):

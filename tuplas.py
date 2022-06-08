@@ -2,7 +2,7 @@
 São imutáveis, ou seja, não podem sofrer alterações em seus valores e são ideais para armazenar dados agrupados tendo a
  certeza de que eles não serão modificados em qualquer outro lugar do código."""
 
-"""tuplas sao declaradas com parenteses"""
+#tuplas sao declaradas com parenteses
 
 tupla = ('Valor_1', 2, 3.1, 'Kenzie Academy', ['Elemento1', 'Elemento2'], 'Kenzie Academy',)
 print(tupla)
