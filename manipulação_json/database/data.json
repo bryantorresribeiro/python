@@ -1,0 +1,17 @@
+{
+    "users": [
+        {
+            "name": "Gilberto",
+            "class": 20,
+            "facilitator": "Chrystian",
+            "email": "gilberto@mail.com"
+        },
+        {
+            "name": "Gilberto",
+            "class": 20,
+            "facilitator": "Chrystian",
+            "email": "gilbertosss@mail.com"
+        }
+    ],
+    "total_students_number": 2
+}

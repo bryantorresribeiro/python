@@ -35,7 +35,6 @@ def remove_more_than_two_repetitions(text):
         letter = text[num]
         num +=1
         
-
     return "".join(array)
 
 print(remove_more_than_two_repetitions("mamaco voadooor"))        

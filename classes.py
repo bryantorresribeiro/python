@@ -1,3 +1,6 @@
+#O init seria basicamente um construtor na hora de construir uma claase fora isso sao variaveis nativas da classe podendo ser chamada apenas
+#se reverindo ao nome da classe a variavel
+
 from datetime import datetime
 
 class Ball():
@@ -6,10 +9,7 @@ class Ball():
 
 teste = Ball("mamaco")
 
-#print(teste.ball_type)
-
-#O init seria basicamente um construtor na hora de construir uma claase fora isso sao variaveis nativas da classe podendo ser chamada apenas
-#se reverindo ao nome da classe a variavel
+print(teste.ball_type)
 
 def declare_winner(fighter1, fighter2, first_attacker):
     
@@ -33,25 +33,6 @@ def declare_winner(fighter1, fighter2, first_attacker):
 
     return rounds
 
-class Funcionario():
-
-    funcao = "Funcionário"
-
-    def __init__(self, nome_completo:str, cpf, salario=3000):
-        name = nome_completo.title().split()
-        self.nome = " ".join(name)
-        self.cpf = cpf
-        self.salario = salario
-        self.admissao = datetime.now().strftime("%d/%m/%Y")
-
-    def __str__(self):
-       return f' {Funcionario.funcao}: {self.nome}' 
-
-funcionario_1 = Funcionario(" jordan  cardoso poole ", "32112343215")
-
-#print(funcionario_1.__dict__)
-#print(funcionario_1)
-
 class Dictionary():
     def __init__(self):
         self.array = []
@@ -65,3 +46,9 @@ class Dictionary():
             if item.get(key) != None: 
                 definition = item.get(key)
         return definition     
+
+
+
+
+        
+       

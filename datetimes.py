@@ -1,5 +1,5 @@
-#from datetime import date, datetime, timedelta
-"""
+from datetime import date, datetime, timedelta
+
 STR_FORMATACAO = "%d/%m/%Y %H:%M:%S"
 exame_realizado_em = datetime.now()
 print(exame_realizado_em)
@@ -14,4 +14,3 @@ print(previsao_de_entrega_str)
 print(f'Data de realização do exame:{data_exame_str}')
 print(f'Previsão de entrega do resultado: {previsao_de_entrega_str}')
 
-"""
