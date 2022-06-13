@@ -9,6 +9,8 @@ data = {
 }
 
 os.system(f'mkdir json')
-with open("mamaco/file.json", "w") as write_file:
+with open("json/file.json", "w") as write_file:
     json.dump(data, write_file)    
 
+with open("json/file.json", "r") as read:
+    json.load(read)
